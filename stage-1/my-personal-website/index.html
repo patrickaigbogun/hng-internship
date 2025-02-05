@@ -4,7 +4,7 @@
      <link rel="stylesheet" href="index.css">   
      <meta charset="UTF-8" />
      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-     <title>HNG11 -stage 1</title> 
+     <title>HNG11 -stage 0</title> 
     </head>
     <body>
        
@@ -18,18 +18,22 @@
             <section class="section1">    
                 <h1>My Personal Website!</h1>
                 <p>
-                    <img class="img" src="assets/Screenshot_20240706-223041.jpg" alt="contact image"> <br>
-                    <span class="cardheading" > Patrick Otasowie Aigbogun, Founder CEO of Oti. </span>
-                    <span class="cardtext" data-testid="slackDisplayName" >
-                        SLACK DISPLAY NAME: <b>Patrick</b>
+                    <img data-testid="profilePicture" class="img" src="assets/Screenshot_20240706-223041.jpg" alt="contact image"> <br>
+                    <span data-testid="fullName" class="cardheading" > Patrick Otasowie Aigbogun, Founder CEO of Oti. </span>
+<span data-testid="jobTitle" class="cardtext">Software engineer for the web</span>
+                    <span class="cardtext" >
+                        SLACK DISPLAY NAME: <b>ceo</b>
                     </span>
-                    <span class="cardtext" data-testid="slackEmail">
-                        SLACK EMAIL: <b>bigtechdomain@gmail.com</b>
+                    <span class="cardtext" data-testid="emailAddress">
+                        EMAIL ADDRESS: <b>patrickaigbogunoti@gmail.com</b>
                     </span>
+<span>
+CURRENT LOCATION: <b>Lagos, Nigeria</b>
+</span>
                     <span class="cardtext" data-testid="currentTimeUTC" >
                         CURRENT TIME IN UTC: <b id="time"></b>
                     </sapn>
-                    <sapn class="cardtext" data-testid="currentDay" >
+                    <sapn class="cardtext" >
                         CURRENT DAY OF THE WEEK: <b id="day"></b>
                     </span>
                 </p>
@@ -40,7 +44,7 @@
                 <hr>
                 <h3>My Goals</h3>
                 <p>
-                    <P>
+                    <P data-testid="shortBio">
                         I am simple yet ambituous. Everyday I set out seeking to better the previous one, the only person I am in competition with is myself.
                         Some things will be said in the following text yet I wish to put this here; <em>my biggest goal is simply to achieve</em>
                     </P>
@@ -60,15 +64,15 @@
             </section>
             <section class="section4">
                 <aside>
-                    <H5>Helpful Links</H5>
+                    <H5>Social Links</H5>
                     <p>
-                       <a href="https://hng.tech/learn" target="_blank" rel="noreferrer" rel="noopener" >Learn from HNG</a>
+                       <a data-testid="socialLinks" href="x.com/patrickaigbogun" target="_blank" rel="noreferrer" rel="noopener" >X formerly Twitter</a>
                     </p>
                     <p>
-                        <a href="https://keyword.org" target="_blank" rel="noreferrer" rel="noopener">Get your useful keywords</a>
+                        <a data-testid="socialLinks" href="https://www.linkedin.com/in/patrick-aigbogun-3220a0251?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" rel="noreferrer" rel="noopener">LinkedIn</a>
                     </p>
                     <p>
-                        <a href="https://scrapeanyweb.site" target="_blank" rel="noreferrer" rel="noopener" >Scrape all sites for data</a>
+                        <a data-testid="socialLinks" href="https://www.patrickaigbogun.me/blog" rel="noreferrer" rel="noopener" >My Website</a>
                     </p>
                 </aside>
             </section>
@@ -76,7 +80,7 @@
         </div>
         <footer> 
            <div class="foot">
-            contact me at:<a href="mailto:bigtechdomain@gmail.com?subject=HNG%20STAGE1%20REACHOUT" target="_top" rel="noreferrer" rel="noopener">my email here</a>
+            contact me at:<a href="mailto:bigtechdomain@gmail.com?subject=HNG%20STAGE0%20REACHOUT" target="_top" rel="noreferrer" rel="noopener">my email here</a>
             <p> &copy; All Rights Reserved| by Oti.</p>
             </div>
         </footer>
