@@ -18,6 +18,6 @@ function displayUTCTime(){
 
 }
 
-setInterval(displayUTCTime, 1000);
+
 
 displayUTCTime();
